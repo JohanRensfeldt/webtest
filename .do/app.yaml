@@ -1,0 +1,8 @@
+name: test-python
+services:
+- environment_slug: python
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: https://github.com/JohanRensfeldt/webtest.git
+  name: sample-python
